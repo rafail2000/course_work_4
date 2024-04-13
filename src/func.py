@@ -23,4 +23,7 @@ def user_interaction():
         if vacancy.vacancy_city == query_city:
             sorted_vacancy_list.append(vacancy)
     for n, vacancy in enumerate(sorted_vacancy_list[:user_top_n]):
-        print(f'{n+1}.{vacancy}')
+        print(f'{n + 1}.{vacancy}')
+
+
+user_interaction()
